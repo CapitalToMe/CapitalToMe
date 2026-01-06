@@ -19,6 +19,7 @@ import {
   CheckCircle2,
   Menu
 } from "lucide-react";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   const [isLocationsHovered, setIsLocationsHovered] = useState(false);
